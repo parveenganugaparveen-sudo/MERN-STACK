@@ -1,0 +1,38 @@
+
+*{
+    font-family:Arial,Helvetica;
+}
+body{
+    background-color:  black;
+
+}
+h2{
+    text-align:center;
+    color:blue;
+}
+form{
+    background-color:white;
+    width:350px;
+    padding:20px;
+    margin:auto;
+    border:1px solid #ccc;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width:100%;
+    padding:8px;
+    border:1px solid gray;
+
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+input[type="submit"]{
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: green;
+}
